@@ -15,10 +15,18 @@ async function weatherCheck(city) {
 let weatherDisplay = (arr) => {
     let div = document.querySelector('[class=weatherDiv]');
 
-    let cityDiv = document.createElement('div');
+    let cityDiv = document.querySelector('[class=cityDiv]');
+    if ( cityDiv == null ) {
+        cityDiv = document.createElement('div');
+        cityDiv.classList.add('cityDiv');
+    }
     cityDiv.innerText = arr.city;
 
-    let tempDiv = document.createElement('div');
+    let tempDiv = document.querySelector('[class=tempDiv]');
+    if ( tempDiv == null ) {
+        tempDiv = document.createElement('div');
+        tempDiv.classList.add('tempDiv');
+    }
     tempDiv.innerText = arr.temp;
 
     div.appendChild(cityDiv);
