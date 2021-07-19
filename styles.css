@@ -1,0 +1,38 @@
+:root{
+    box-sizing: border-box;
+}
+
+*,
+::before
+::after{
+    box-sizing: inherit;
+}
+
+.header{
+    background-color: lightblue;
+    padding: 2em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+}
+
+.weatherDiv{
+    background-color: salmon;
+    margin-top: 150px;
+    padding: 1em;
+}
+
+.mainWeather{
+    background-color: lightsalmon;
+    width:15%;
+    padding:1em;
+}
+
+.cityDiv{
+    font-size:40px;
+}
+
+.tempDiv{
+    font-size:40px;
+}
