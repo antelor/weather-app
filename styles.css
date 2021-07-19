@@ -10,23 +10,36 @@
 
 .header{
     background-color: lightblue;
-    padding: 2em;
+    padding: 3em;
     position: absolute;
     top: 0;
     left: 0;
     width:100%;
 }
 
+.footer{
+    background-color: lightblue;
+    padding: 2em;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width:100%;
+    height: 20%;
+}
+
 .weatherDiv{
     background-color: salmon;
-    margin-top: 150px;
+    margin-top: 210px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 1em;
+    display: flex;
 }
 
 .mainWeather{
     background-color: lightsalmon;
     width:15%;
-    padding:1em;
+    padding:2em;
 }
 
 .cityDiv{
@@ -35,4 +48,12 @@
 
 .tempDiv{
     font-size:40px;
+}
+
+.otherWeather{
+    background: lightsalmon;
+    padding:1em;
+    margin-left: 80px;
+    width:85%;
+    font-size: 20px;
 }
