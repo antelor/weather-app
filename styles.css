@@ -17,6 +17,16 @@
     width:100%;
 }
 
+.title{
+    margin:auto;
+    font-size:40px;
+    padding-bottom: 10px;
+}
+
+.search{
+    padding:0.5em;
+}
+
 .footer{
     background-color: lightblue;
     padding: 2em;
@@ -24,7 +34,8 @@
     bottom: 0;
     right: 0;
     width:100%;
-    height: 20%;
+    height: 17%;
+    text-align: center;
 }
 
 .weatherDiv{
